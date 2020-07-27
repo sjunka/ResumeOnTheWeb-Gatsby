@@ -26,7 +26,7 @@ const Resume = () => {
       <div className="grid grid-cols-1 gap-6 md:grid-cols-5 md:gap-8 items-center">
         <div className="col-span-1 md:col-span-2">
           <OutboundLink
-            href="https://pillai.xyz/resume-pdf"
+            href="https://drive.google.com/file/d/1CPdF849FEc8zOXrpBkjmG5vSUFuljH2q/view"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full h-64 md:h-48 lg:h-64 bg-black relative flex-center cursor-pointer rounded-lg shadow-lg"
@@ -42,7 +42,7 @@ const Resume = () => {
         </div>
         <div className="col-span-1 md:col-span-3">
           <h5 className="text-lg lg:text-xl font-semibold">
-            To those HRs out there who need a more organized and minimal version
+            To those HRs out there who need a more complex and organized version
             of my information, you can download the trusted PDF version here:
           </h5>
 
@@ -51,7 +51,10 @@ const Resume = () => {
             icon={IoIosDocument}
             title="Download Resume"
             onClick={() =>
-              window.open("https://pillai.xyz/resume-pdf", "_blank")
+              window.open(
+                "https://drive.google.com/file/d/1CPdF849FEc8zOXrpBkjmG5vSUFuljH2q/view",
+                "_blank",
+              )
             }
           />
         </div>

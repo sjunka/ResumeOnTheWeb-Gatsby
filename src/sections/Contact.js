@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useRef, useState } from "react";
 import Heading from "../components/Heading";
 import { IoIosPaperPlane } from "../components/Icons";
@@ -82,7 +83,7 @@ const Contact = () => {
             name="name"
             type="text"
             ref={nameRef}
-            placeholder="Regina Phalange"
+            placeholder="Jonathan Wick"
             onChange={e => setName(e.target.value)}
             className="border-2 border-gray-700 focus:border-gray-300 px-4 py-2 text-lg bg-transparent duration-200 focus:outline-none"
           />
@@ -97,7 +98,7 @@ const Contact = () => {
             name="email"
             type="email"
             ref={emailRef}
-            placeholder="regina@example.com"
+            placeholder="jhonwick@example.com"
             onChange={e => setEmail(e.target.value)}
             className="border-2 border-gray-700 focus:border-gray-300 px-4 py-2 text-lg bg-transparent duration-200 focus:outline-none"
           />
@@ -128,7 +129,10 @@ const Contact = () => {
           className="mt-6"
           icon={IoIosPaperPlane}
           title={buttonText}
-          onClick={onSubmit}
+          onClick={() =>
+            (window.location.href =
+              "https://wa.me/573155695728?text=Are%20you%20available%20for%20work?")
+          }
         />
       </form>
     </section>

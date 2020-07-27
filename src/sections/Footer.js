@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from "react";
 import Heading from "../components/Heading";
 import { FaInfoCircle, FaStar } from "../components/Icons";
@@ -15,7 +16,7 @@ const Footer = () => {
 
   return (
     <section id="footer">
-      <Heading icon={FaInfoCircle} title="About Resume on the Web" />
+      {/* <Heading icon={FaInfoCircle} title="About Resume on the Web" />
 
       <div
         className="text-justify w-full md:w-4/5 lg:w-3/4 wow fadeIn"
@@ -32,12 +33,12 @@ const Footer = () => {
             "_blank",
           )
         }
-      />
+      /> */}
 
       <div className="pt-24 pb-8 text-xs leading-relaxed opacity-25">
-        <div>Licensed under MIT.</div>
-        <div>Copyright {new Date().getFullYear()} Amruth Pillai.</div>
-        <div>Made with Love in Bengaluru, India.</div>
+        <div>Licensed under MIT. This code is open source </div>
+        <div>Copyright {new Date().getFullYear()} Sergio Junca.</div>
+        <div>Made with Love from, Colombia.</div>
       </div>
     </section>
   );
