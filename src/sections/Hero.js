@@ -12,7 +12,7 @@ const Hero = () => {
   const [showSocial, setShowSocial] = useState(false);
   const data = useStaticQuery(graphql`
     {
-      photo: file(relativePath: { eq: "photo.png" }) {
+      photo: file(relativePath: { eq: "photo.jpeg" }) {
         childImageSharp {
           fluid(maxWidth: 512) {
             ...GatsbyImageSharpFluid_withWebp_noBase64
@@ -21,7 +21,7 @@ const Hero = () => {
       }
       logo: file(relativePath: { eq: "logo.png" }) {
         childImageSharp {
-          fluid(maxHeight: 128) {
+          fluid {
             ...GatsbyImageSharpFluid_withWebp_noBase64
           }
         }
@@ -66,8 +66,8 @@ const Hero = () => {
           />
 
           <h1 className="sr-only">
-            Amruth Pillai&apos;s Resume on the Web <br />
-            Designer, Developer, Photographer, Writer from Bangalore, India
+            Sergio Junca <br />
+            Javascript developer
           </h1>
 
           <div className="text-center lg:text-left flex flex-col items-center lg:ml-4 lg:items-start">

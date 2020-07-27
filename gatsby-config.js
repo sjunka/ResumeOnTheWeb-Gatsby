@@ -5,11 +5,12 @@ const fullConfig = resolveConfig(tailwindConfig);
 require(`dotenv`).config({ path: `.env` });
 
 module.exports = {
+  pathPrefix: "/resume2020",
   siteMetadata: {
-    title: `Amruth Pillai's Resume on the Web`,
-    description: `Everyone needs their own little spot on the interwebs, and this is mine. Welcome to my resume, on the web!`,
-    author: `Amruth Pillai`,
-    siteUrl: `https://amruthpillai.com`,
+    title: `Sergio Junca Resume  2020`,
+    description: `Resume 2020 post pandemic!`,
+    author: `Sergio Junca`,
+    siteUrl: `https://sjunka.github.io/resume2020/`,
   },
   plugins: [
     {
@@ -38,7 +39,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Amruth Pillai's Resume on the Web`,
+        name: `Sergio's Resume`,
         short_name: `Resume on the Web`,
         start_url: `/`,
         background_color: fullConfig.theme.colors.white,
