@@ -1,3 +1,4 @@
+/* eslint-disable */
 import Tooltip from "@material-ui/core/Tooltip";
 import { graphql, useStaticQuery } from "gatsby";
 import GatsbyImage from "gatsby-image";
@@ -65,16 +66,16 @@ const Navigation = () => {
     >
       <Tooltip title="Go to Top" placement="right" arrow>
         <div className="flex-center cursor-pointer" onClick={scrollToTop}>
-          <GatsbyImage className="grayscale" {...data.icon.childImageSharp} />
+          {/* <GatsbyImage className="grayscale" {...data.icon.childImageSharp} /> */}
         </div>
       </Tooltip>
 
-      <div className="hidden md:flex flex-col justify-center items-center">
+      {/* <div className="hidden md:flex flex-col justify-center items-center">
         <div className={styles.menu}>
           <MdMenu />
         </div>
         <div className={styles.sectionLinks}>{sections.map(SectionLink)}</div>
-      </div>
+      </div> */}
 
       <Tooltip title="Toggle Dark Mode" placement="right" arrow>
         <div

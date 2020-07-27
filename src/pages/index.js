@@ -4,16 +4,16 @@ import Footer from "../sections/Footer";
 import Wrapper from "../components/Wrapper";
 import AboutMe from "../sections/AboutMe";
 import Achievements from "../sections/Achievements";
-import Blog from "../sections/Blog";
+// import Blog from "../sections/Blog";
 import Certifications from "../sections/Certifications";
 import Contact from "../sections/Contact";
-import Design from "../sections/Design";
+// import Design from "../sections/Design";
 import Education from "../sections/Education";
 import Hero from "../sections/Hero";
-import Languages from "../sections/Languages";
-import Music from "../sections/Music";
+// import Languages from "../sections/Languages";
+// import Music from "../sections/Music";
 import Philanthropy from "../sections/Philanthropy";
-import Photography from "../sections/Photography";
+// import Photography from "../sections/Photography";
 import Projects from "../sections/Projects";
 import Resume from "../sections/Resume";
 import Skills from "../sections/Skills";
@@ -31,8 +31,8 @@ const IndexPage = () => {
         </div>
         <Skills />
         <Projects />
-        <Blog />
-        <Languages />
+        {/* <Blog /> */}
+        {/* <Languages /> */}
         <div className={styles.achievementsCertificationPhilanthropy}>
           <div>
             <Achievements />
@@ -44,9 +44,9 @@ const IndexPage = () => {
             <Philanthropy />
           </div>
         </div>
-        <Photography />
-        <Music />
-        <Design />
+        {/* <Photography /> */}
+        {/* <Music /> */}
+        {/* <Design /> */}
         <Resume />
         <Contact />
         <Footer />
