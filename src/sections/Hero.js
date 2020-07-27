@@ -60,10 +60,10 @@ const Hero = () => {
           </div>
         </div>
         <div className="col-span-3">
-          <GatsbyImage
+          {/* <GatsbyImage
             className="max-w-lg max-h-32 mx-auto lg:mx-0"
             {...data.logo.childImageSharp}
-          />
+          /> */}
 
           <h1 className="sr-only">
             Sergio Junca <br />

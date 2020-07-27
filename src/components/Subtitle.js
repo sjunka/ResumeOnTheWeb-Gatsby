@@ -22,11 +22,11 @@ const Subtitle = ({ onDone }) => (
         <span className="text-red-500">Arquitech</span>,{" "}
         <span className="text-red-500">Developer</span>,{" "}
         <span className="text-red-500">System Designer</span>,{" "}
-        <span className="text-red-500">DataBases</span>,{" "}
+        <span className="text-red-500">Data Analyst</span>,{" "}
       </div>
       <div className="lg:pl-8">
         <span className="text-red-500">Tester</span>,{" "}
-        <span className="text-red-500">Creator</span>, ...
+        <span className="text-red-500">Seeker</span>, ...
         <span className="text-red-500">mentor</span>,
       </div>
       <div>];</div>
