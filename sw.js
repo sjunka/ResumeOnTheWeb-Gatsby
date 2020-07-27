@@ -191,7 +191,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "c917c1587a81362faaed3170869380b9"
+    "revision": "597431815707b1b53883a9ef5f950009"
   },
   {
     "url": "manifest.webmanifest",
@@ -1397,6 +1397,9 @@ self.__precacheManifest = [
   },
   {
     "url": "static/a9b94a0a62819d1140dba891adb384f0/fa51b/dhiyo.webp"
+  },
+  {
+    "url": "static/adb47348eb91bf9dd7bd6c62b2b9a1a3/share.png"
   },
   {
     "url": "static/b44b936e50d3af23a9a8da14e7940216/1f5c5/b8vqzo9npmv9wstwq4bj.webp"
