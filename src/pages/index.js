@@ -47,7 +47,7 @@ const IndexPage = () => {
         {/* <Photography /> */}
         {/* <Music /> */}
         {/* <Design /> */}
-        <Resume />
+        {/* <Resume /> */}
         <Contact />
         <Footer />
       </div>
